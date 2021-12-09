@@ -1,0 +1,22 @@
+{
+  "name": "graphql_",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.15"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^2.1.0",
+    "jest": "^27.4.3",
+    "jest-cli": "^27.4.3",
+    "nodemon": "^2.0.15"
+  }
+}
